@@ -5,6 +5,10 @@ return {
       "rust",
       "zig",
       "odin",
+      "astro",
+      "css",
+      "typescript",
+      "tsx",
     })
   end,
 }
