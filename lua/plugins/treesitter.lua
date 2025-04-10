@@ -9,6 +9,7 @@ return {
       "css",
       "typescript",
       "tsx",
+      "gdscript",
     })
   end,
 }

@@ -9,3 +9,6 @@ vim.opt.shellredir = "-RedirectStandardOutput %s -NoNewWindow -Wait"
 vim.opt.shellpipe = "2>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode"
 vim.opt.shellquote = ""
 vim.opt.shellxquote = ""
+vim.opt.ignorecase = true -- search case insensitive
+vim.opt.smartcase = true -- search matters if capital letter
+vim.opt.inccommand = "split" -- "for incsearch while sub
