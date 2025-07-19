@@ -9,6 +9,7 @@ return {
       require("telescope").load_extension("yank_history")
     end,
   },
+  cond = not vim.g.vscode,
   opts = function(_, opts)
     if not LazyVim.has("flash.nvim") then
       return

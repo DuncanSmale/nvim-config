@@ -12,3 +12,7 @@ vim.opt.shellxquote = ""
 vim.opt.ignorecase = true -- search case insensitive
 vim.opt.smartcase = true -- search matters if capital letter
 vim.opt.inccommand = "split" -- "for incsearch while sub
+vim.opt.columns = 999
+vim.opt.lines = 999
+
+vim.lsp.enable("gdscript")

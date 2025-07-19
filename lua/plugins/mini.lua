@@ -113,6 +113,7 @@ return {
   {
     "echasnovski/mini.starter",
     optional = true,
+    cond = not vim.g.vscode,
     opts = function(_, opts)
       local items = {
         {

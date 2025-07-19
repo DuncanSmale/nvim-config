@@ -1,8 +1,9 @@
 return {
   "akinsho/toggleterm.nvim",
   version = "*",
+  cond = not vim.g.vscode,
   opts = {
-    open_mapping = "<C-\\>",
+    open_mapping = "<leader>\\",
     start_in_insert = true,
     direction = "horizontal",
     -- float_opts = {
